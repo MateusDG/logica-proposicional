@@ -1,0 +1,388 @@
+<html>
+    <head>
+        <title>Matematica Discreta</title>
+    </head>
+
+    <body>
+
+        <center><h1 id="inicio">Lógica Proposicional</h1></center>
+
+        <h4>Indíces</h4>
+            <ol>
+                <li><strong><a href="#Composta">Proposições compostas</a></strong></li>
+                <li><strong><a href="#Negação">Proposição: Negação</a></strong></li>
+                <li><strong><a href="#Conjunção">Proposição: Conjunção</a></strong></li>
+                <li><strong><a href="#Disjunção">Proposição: Disjunção</a></strong></li>
+                <li><strong><a href="#Condicional">Proposição: Condicionais</a></strong></li>
+                <li><strong><a href="#Bi">Proposição: Bicondicionais</a></strong></li>
+                <li><strong><a href="#Ref">Referências</a></strong></li>
+            </ol>
+
+        <h2 id="Compostas">
+            Preposições Compostas
+        </h2>
+            <p>
+                <ul>
+                    <li><strong>Preposições compostas</strong> podem ser criadas ao se combinarem proposições já existentes.</li>
+                    <br>
+                    A combinação de preposições é feita usando <strong>operadores lógicos</strong> ou <strong>conectivos lógicos</strong> como:
+                    <ul>
+                        <li>negação (não).</li>
+                        <li>conjunção (e).</li>
+                        <li>disjunção (ou).</li>
+                        <li>implicação (implica).</li>
+                        <li>implicação dupla(implica duplamente).</li>
+                    </ul>
+                    <br>
+                    <li>Nós vamos agora estudar estes conectivos.</li>
+                </ul>
+            </p>
+
+            <h3 id="Negação">Preposições: Negação</h3>
+            <small><a href="#inicio">(Voltar)</a></small>
+            <p>
+                <ul>
+                    <li>Seja <i>p</i> uma preposição.</li>
+                </p>
+                    
+                    A <strong>negação</strong> de <i>p</i>, denotada por <i>¬p</i>, é a afirmação:
+                    
+                    <p><center><i>Não é o caso de que p.</i></center></ul></p>
+
+                    <p>Lê-se a preposição <i>¬p</i> como, <i>"não p"</i>.</p>
+                    
+                    <p>O valor de verdade de <i>¬p</i> é o oposto do valor de verdade de <i>p</i>.</p>
+                
+                    <li><strong>Tabela da verdade</strong> para a negação de uma preposição <i>p</i>:</li>
+
+                    <p>
+                        <table border="2">
+                        <tr>
+                            <td><strong>p</strong></td>
+                            <td><strong>¬p</strong></td>
+                        </tr>
+
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                        </tr>
+
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                        </tr>
+                        </table>
+                    </p>
+                    <p>
+                        <ol>
+                            <h4><li>Exemplo: Seja a preposição</li></h4>
+                                <p><i>p: "O computador do Mário roda Linux."</i></p>
+
+                                <p>A negação <i>¬p</i> é: "<i>Não é o caso de que o computador do Mário rode Linux."</i>"</p>
+                                Forma alternativa de negação ¬p: <i>"O computador do Mário não roda Linux."</i>
+
+                                <p>
+                                    <h4><li>Exemplo: Seja a proposição</li></h4>
+                                    <p>
+                                        <i>q: "Luciana tem pelo menos 25 anos."</i>
+                                    </p>
+
+                                    <p>A negação <i>¬q</i> é: <i>"“Não é o caso de que Luciana tenha pelo menos 25 anos.”</i></p>
+                                    Forma alternativa de negação <i>¬q</i>: <i>“Luciana não tem pelo menos 25 anos.”</i>
+                                    Mais forma de negação <i>¬q</i>: <i>"Luciana tem menos de 25 anos."</i>
+                                </p>
+                        </ol>
+                    </p>
+
+                </ul>
+
+                <h3 id="Conjunção">Conectivos lógicos: Conjunção</h3>
+                <small><a href="#inicio">(Voltar)</a></small>
+                <ul>
+                    <li>Sejam <i>p</i> e <i>q</i> preposições</li>
+                    A <strong>conjunção de</strong> <i>p</i> e <i>q</i>, denotado por <i>p ∧ q</i>, é a afirmação:
+                    <p><center><i>"p e q"</i></center></p>
+                    <p>A conjunção <i>p ∧ q</i> é verdadeira quando ambos <i>p e q</i> são verdadeiros, e ´e
+                        falsa em caso contrário.</p>
+                        
+                    <p><li><strong>Tabela da verdade</strong> para a conjunção de duas preposições <i>p</i> e <i>q</i>:</li></p>
+
+                    <p>
+                        <table border="1">
+                            <tr>
+                                <td><strong>p</strong></td>
+                                <td><strong>q</strong></td>
+                                <td><strong>p ∧ q</strong></td>
+                            </tr>
+
+                            <tr>
+                                <td>T</td>
+                                <td>T</td>
+                                <td>T</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>T</td>
+                                <td>F</td>
+                                <td>F</td>
+                            </tr>
+
+                            <tr>
+                                <td>F</td>
+                                <td>T</td>
+                                <td>F</td>
+                            </tr>
+
+                            <tr>
+                                <td>F</td>
+                                <td>F</td>
+                                <td>F</td>
+                            </tr>
+                        </table>
+                    </p>
+
+                    <p>
+                        <ol>
+                            <h4><li>Exemplo:Sejam <i>p</i> e <i>q</i> preposições.</li></h4>
+                        
+                    </p>
+                <p><center><i>p: "Hoje é sábado."</i></center></p>
+            <p><center><i>q: "Vou comer bolo."</i></center></p>
+                        
+                       A conjunção <i>p ∧ q</i> é:
+                       <center><i>“Hoje é sábado e vou comer bolo.”</i></center>
+
+                       <ul><li><p>As vezes em linguagem natural usamos “mas” para significar conjunção:</p></li></ul>
+                        
+                       <h4><li>Exemplo: A preposição</li></h4>
+                        </ol><p>
+                        <center><i>"Hoje chove, mas vou sair"</i></center>
+                            </p>
+                        <p> 
+                        é a conjunção p ∧ q das preposições</p>
+
+                        <p><center><i>p : "Hoje chove"</i></center></p>
+                    <p><center><i>q: "Hoje vou sair"</i></center></p>
+                </ul>
+            
+            <h3 id="Disjunção">Conectivos lógicos: Disjunção</h3>
+            <small><a href="#inicio">(Voltar)</a></small>
+            <ul>
+                <li>Sejam <i>p</i> e <i>q</i> preposições.</li>
+                <p>A <strong>disjunção de</strong> <i>p</i> <strong>e</strong> <i>q</i>, denotada por <i>p V q</i>, é a afirmação</p>
+                <p><center><i>"p ou q".</i></center></p>
+                <p>A disjunção <i>p V q</i> é verdadeira quando ao menos um entre <i>p</i> e <i>q</i> é verdadeiro, e é falsa em caso contrário.</p>
+                <p><li><strong>Tabela da verdade</strong> para a disjunção de duas preposições <i>p</i> e <i>q</i>:</li></p>
+
+                <p>
+                    <table border="1">
+                        <tr>
+                            <td><strong>p</strong></td>
+                            <td><strong>q</strong></td>
+                            <td><strong>p V q</strong></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>T</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                            <td>T</td>
+                        </tr>
+
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+
+                        <tr>
+                            <td>F</td>
+                            <td>F</td>
+                            <td>F</td>
+                        </tr>
+
+                    </table>
+                </p>
+
+                <ol>
+                    <li><h4>Exemplo: Sejam as preposições:</h4></li>
+                    <p><center><i>p : “O celular de Alice é azul”</i></center></p>
+                    <p><center><i>q : “O celular de Alice é novo”</i></center></p>
+
+                    <p>A disjunção <i>p V q</i> é:</p>
+                    <p><i><center>“O celular de Alice é azul ou o celular de Alice é novo.”</center></i></p>
+
+                    <p>Alternativamente, <i>p V q</i> é:</p>
+                    <p><i><center>“O celular de Alice é azul ou é novo.”</center></i></p>
+
+                </ol>
+            </ul>
+
+            <h3 id="Condicional">Conectivos lógicos: Condicionais</h3>
+            <small><a href="#inicio">(Voltar)</a></small>
+            <ul>
+                <li>Sejam <i>p</i> e <i>q</i> preposições.</li>
+                <p>A <strong>afirmação condicional</strong> ou <strong>implicação</strong> <i>p → q</i> é a afirmação</p>
+                <p><i><center>"se p, então q".</center></i></p>
+
+                <p>A afirmação condicional <i>p → q</i> é falsa quando <i>p</i> é verdadeira e <i>q</i> é falsa, e a afirmação é verdadeira caso contrário.</p>
+
+                <li>Na afirmação condicional <i>p → q</i>:</li>
+
+                    <ul>
+                        <p><li><i>p</i> é chamado de <strong>hipótese, antecedente ou premissa</strong>.</li></p>
+                        <p><li><i>q</i> é chamado de <strong>conclusão ou consequente</strong>.</li></p>
+                        <p>Ou seja, para que <i>p</i> aconteça, o <i>q</i> tem que ser verdadeiro, sendo o <i>q</i> independente.</p>
+
+                    </ul>
+                    
+                <li><strong>Tabela da verdade</strong> para a preposição condicional envolvendo duas preposições <i>p</i> e <i>q</i>:</li>
+
+                <p>
+                    <table border="1">
+                        <tr>
+                            <td><strong>p</strong></td>
+                            <td><strong>q</strong></td>
+                            <td><strong>p → q</strong></td>
+                        </tr>
+
+                        <tr>
+                            <td>T</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                            <td>F</td>
+                        </tr>
+
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+
+                        <tr>
+                            <td>F</td>
+                            <td>F</td>
+                            <td>T</td>
+                        </tr>
+
+                    </table>
+                </p>
+                
+                <p>A afirmação condicional <i>p → q</i> é falsa quando <i>p</i> é verdaeira e <i>q</i> é falsa, e a afirmação é verdadeira caso contrário.</p>
+                
+                <ol>
+                    <li><h4>Exemplo: Considere a implicação abaixo.</h4></li>
+
+                    <p><i><center>"Se eu for eleito, eu vou abaixar os impostos"</center></i></p>
+
+
+                    <p>A proposição condicional é <u>falsa</u> se eu for eleito e não abaixar os impostos.</p>
+
+                    <p>Se eu não for eleito, eu posso abaixar os impostos ou não, sem assim quebrar
+                        minha promessa. Logo, se eu não for eleito, a proposição condicional é
+                        <u>verdadeira</u> independentemente de se eu abaixar os impostos ou não.</p>
+
+                    <ul>
+                        <p><li>Na lógica proposicional, o valor de verdade da implicação <i>p → q</i> só depende do valor de verdade de <i>p</i> e <i>q</i>, e <u>não de seu significado.</u></li></p>
+
+                        <p>A implicação só é falsa se "<i>q</i> for menos verdadeiro que <i>p</i>", ou seja, se <i>p</i> for verdadeiro e <i>q</i> for falso.</p>
+                        
+                        <p><center><img src="Imagens/teste2.png" alt="Pdf Bruno Hott"></center></p>
+                    </ul>
+
+
+                </ol>
+
+            </ul>
+
+            
+            <h3 id="Bi">Conectivos lógicos: Bicondicionais</h3>
+            <small><a href="#inicio">(Voltar)</a></small>
+            <ul>
+                <li>Sejam <i>p</i> e <i>q</i> proposições.</li>
+
+                <p>A <strong>afirmação bicondicional</strong> ou <strong>implicação dupla</strong> <i>p ↔ q</i> é a afirmação</p>
+
+                <p><center><i>"p se, e somente se, q".</i></center></p>
+
+                <p>A afirmação bicondicional <i>p ↔ q</i> é verdadeira quando <i>p</i> e <i>q</i> têm o mesmo valor de verdade, e é falsa em caso contrário.</p>
+
+                <li>Em linguagem natural é comum expressar <i>p ↔ q</i> como:</li>
+
+                    <ul>
+                        <p><li><i>“p é necessário e suficiente para q.”</i></li></p>
+                        <p><li><i>"p sse q".</i> Note que usamos <u>"sse" com dois "s".</u></li></p>
+                    </ul>
+
+                <li><strong>Tabela da verdade</strong> para o ou exclusivo de duas proposições <i>p</i> e <i>q</i>:</li>
+
+                <p>
+                    <table border="1">
+                        <tr>
+                            <td><strong>p</strong></td>
+                            <td><strong>q</strong></td>
+                            <td><strong>p ↔ q</strong></td>
+                        </tr>
+
+                        <tr>
+                            <td>T</td>
+                            <td>T</td>
+                            <td>T</td>
+                        </tr>
+
+                        <tr>
+                            <td>T</td>
+                            <td>F</td>
+                            <td>F</td>
+                        </tr>
+
+                        <tr>
+                            <td>F</td>
+                            <td>T</td>
+                            <td>F</td>
+                        </tr>
+
+                        <tr>
+                            <td>F</td>
+                            <td>F</td>
+                            <td>T</td>
+                        </tr>
+
+                    </table>
+                </p>
+
+                <li>A proposição bicondicional <i>p ↔ q</i> é verdadeira sempre que ambos <i>p → q</i> e <i>q → p</i> são verdadeiros, e ela é falsa em caso contrário.</li>
+                
+                <p><center><img src="Imagens/teste3.png" alt="PDF Bruno Hott"></center></p>
+
+            </ul>
+
+            <h3 id="Ref">
+                <small><a href="#inicio">(Voltar)</a></small>
+                Referências
+            </h3>
+
+            <ul>
+                <li>Hott, B. (s.d.). Lógica Proposicional (pp. 1-29).</li>
+            </ul>
+
+            <p><center>
+                Primeiro site HTML, aprendido na plataforma <a href="https://web.dio.me/" target="_blank">Dio.me</a>
+            </p></center>
+
+            <center><blockquote>"Só sei que nada sei"</blockquote></center>
+
+        <a href="SitePrincipal.html" title="Clique para voltar" target="_self">Voltar a página anterior</a>
+    </body>
+</html>
